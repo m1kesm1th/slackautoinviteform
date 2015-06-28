@@ -1,0 +1,18 @@
+
+The plugin will work for any Slack site. Though was specifically designed for biohackspace.org.
+
+Configuration requires an Admin account (or an api_token created by one), the ability to upload/configure plugins and also the access privileges to edit pages.
+
+1. Download from git the zip file containing the php file. This isn't absolutely necessary but its Wordpress best practise.
+The folder and the zip file should have the same name as the php file (in this case 'slackautoinviteform').
+
+2. Create an API token in the Slack Administration pages. You'll need this shortly.
+
+3. Go back to Wordpress and ensure the Slack Auto Invite Form Plugin is activated. 
+
+4. Go to Settings, AutoInviteFormPlugin and enter in the Slack webpage and the API Token you just generated. Click Save Settings.
+
+5. Go into the page where you want the Email text box to appear. Click Edit and add in the Form short code 
+[slackautoinviteform].
+
+6. Now when you view the page, there will be a form where people can add their email to be sent an invite.  
